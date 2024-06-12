@@ -1,0 +1,8 @@
+{% set section = header %}
+
+<header class="{{section.id}}">
+  <div class="container flex justify-between">
+    <h2 class="text-2xl font-bold">{{header.title}}</h2>
+    {% include '../components/nav-menu.html' %}
+  </div>
+</header>

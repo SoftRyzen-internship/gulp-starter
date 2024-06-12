@@ -1,0 +1,5 @@
+# Ignore artifacts:
+build
+
+# Ignore input file from html:
+src/assets/html/components/macro/input.html

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply min-w-0 scroll-smooth;
+  }
+
+  body {
+    @apply bg-body font-montserrat text-black;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-10 md:py-[60px] xl:py-20;
+  }
+
+  /* .btn {
+  } */
+}

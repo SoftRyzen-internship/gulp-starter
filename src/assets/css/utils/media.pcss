@@ -1,0 +1,28 @@
+/* variables */
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1280px;
+$hundredths: 0.02px;
+
+/* mobile-only */
+@custom-media --smOnly (max-width: calc($tablet - $hundredths));
+/* mobile */
+@custom-media --sm (min-width: $mobile);
+/* tablet-only */
+@custom-media --mdOnly ((min-width: $tablet) and (max-width: calc($desktop - $hundredths)));
+/* tablet */
+@custom-media --md (min-width: $tablet);
+/* desktop */
+@custom-media --xl (min-width: $desktop);
+/* notDesktop */
+@custom-media --notXl (max-width: calc($desktop - $hundredths));
+/* retina */
+@custom-media --retina (screen and (min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2/1), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx));
+
+/* .block {
+  color: black;
+
+  @media (--md) {
+    color: red;
+  }
+} */

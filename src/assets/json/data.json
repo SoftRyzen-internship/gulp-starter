@@ -1,0 +1,25 @@
+{
+  "page": {
+    "lang": "en"
+  },
+  "header": {
+    "id": "header",
+    "title": "Header title",
+    "items": [
+      {
+        "id": "item1",
+        "title": "About",
+        "link": "#about"
+      },
+      {
+        "id": "item2",
+        "title": "Services",
+        "link": "#services"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Footer title"
+  },
+  "components": {}
+}
