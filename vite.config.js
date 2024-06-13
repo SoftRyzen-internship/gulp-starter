@@ -53,7 +53,7 @@ export default defineConfig({
     createHtmlPlugin({
       // https://github.com/vbenjs/vite-plugin-html/tree/main?tab=readme-ov-file#minifyoptions
       minify: {
-        // collapseWhitespace: true,
+        collapseWhitespace: true,
         removeComments: true,
         minifyCSS: true,
       },
